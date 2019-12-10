@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+            "path" : "pages/cart/cart",
+            "style" : {}
+        },
+		{
+            "path" : "pages/my/my",
+            "style" : {}
+        },
+		{
+            "path" : "pages/discover/discover",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "秋豆麻袋",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#b5b5b5",
+		"selectedColor":"#fd6801",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home_fill.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/discover/discover",
+				"iconPath":"static/tabbar/discover.png",
+				"selectedIconPath":"static/tabbar/discover_fill.png",
+				"text":"发现"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/tabbar/cart.png",
+				"selectedIconPath":"static/tabbar/cart_fill.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"iconPath":"static/tabbar/my.png",
+				"selectedIconPath":"static/tabbar/my_fill.png",
+				"text":"购物车"
+			}
+		]
+	}
+}
