@@ -23,7 +23,7 @@
 							<text class="text-black text-sm">{{ item.title }}</text>
 						</view>
 					</view>
-					<divider/>
+					<divider />
 					<view class="flex bg-white">
 						<image class="border-extral-light margin-right-xs" style="height: 370rpx;width: 370rpx;" src="../../static/images/demo/demo1.jpg" lazy-load></image>
 						<view class="flex flex-direction bg-white">
@@ -32,15 +32,14 @@
 						</view>
 					</view>
 					<divider />
-					<view class="card bg-white">
-						<view class="padding-sm"><text class="text-primary text-md text-bold">每日精选</text></view>
-						<view><image style="height: 300rpx;" src="../../static/images/demo/demo4.jpg"></image></view>
-					</view>
+					<card :title="'每日精选'">
+						<view style="height: 300rpx;"><image style="height: 300rpx;" src="../../static/images/demo/demo4.jpg"></image></view>
+					</card>
 					<divider />
 					<view>
 						<view class="bg-white" style="width: 372.5rpx;">
 							<image src="../../static/images/demo/list/1.jpg" />
-							<view class="padding-horizontal-sm padding-bottom-sm">
+							<view class="padding-horizontal padding-bottom">
 								<view class="text-lg">米家空调</view>
 								<text class="text-secondary text-md text-cut">1.5匹变频空调</text>
 								<view>
@@ -53,17 +52,18 @@
 				</scroll-view>
 			</swiper-item>
 		</swiper>
-
 	</view>
 </template>
 
 <script>
 import swiperImage from '@/components/index/swiper-image'
 import divider from '@/components/divider'
+import card from '@/components/card'
 export default {
 	components: {
 		swiperImage,
-		divider
+		divider,
+		card
 	},
 	data() {
 		return {
@@ -166,8 +166,13 @@ export default {
 		//swiper滑动
 		onTabChange(e) {
 			this.activeTab = e.detail.current
-			this.scrollinto = 'tab_' +  e.detail.current
+			this.scrollinto = 'tab_' + e.detail.current
 		}
+	},
+	onNavigationBarSearchInputClicked() {
+		uni.navigateTo({
+			url: '/pages/search/search'
+		})
 	},
 	onLoad() {
 		uni.getSystemInfo({

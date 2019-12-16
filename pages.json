@@ -2,7 +2,39 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
-			"style": {}
+			"style": {
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"searchInput":{
+							"align":"left",
+							"backgroundColor":"#fff",
+							"borderRadius":"5px",
+							"disabled":"ture",
+							"placeholderColor":"#c0c4cc",
+							"placeholder":"MacBook Pro"
+						},
+						"buttons":[
+							{
+								"color":"#909399",
+								"colorPressed":"#f3f6fc",
+								"float":"left",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/iconfont.ttf",
+								"text":"\ue6bc"
+							},
+							{
+								"color":"#909399",
+								"colorPressed":"#f3f6fc",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/iconfont.ttf",
+								"text":"\ue689"
+							}
+						]
+					}
+				}
+			}
 		},
 		{
             "path" : "pages/cart/cart",
@@ -15,6 +47,32 @@
 		{
             "path" : "pages/discover/discover",
             "style" : {}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style": {
+            	"app-plus":{
+            		"scrollIndicator":"none",
+            		"titleNView":{
+            			"searchInput":{
+            				"align":"left",
+            				"backgroundColor":"#fff",
+            				"borderRadius":"5px",
+            				"placeholderColor":"#c0c4cc",
+            				"placeholder":"MacBook Pro"
+            			},
+            			"buttons":[
+            				{
+            					"color":"#909399",
+            					"colorPressed":"#f3f6fc",
+            					"float":"right",
+            					"fontSize":"16px",
+            					"text":"搜索"
+            				}
+            			]
+            		}
+            	}
+            }
         }
     ],
 	"globalStyle": {

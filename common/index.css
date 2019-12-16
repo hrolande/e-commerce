@@ -1,5 +1,7 @@
 image {
 	width: 100%;
+	padding: 0;
+	margin: 0;
 	will-change: transform;
 }
 
@@ -48,113 +50,246 @@ image {
 	flex-basis: 50%;
 }
 
-.padding-0 {
-	padding: 0;
+/*内外边距*/
+.padding {
+	padding: 20rpx;
+}
+
+.padding-sm {
+	padding: 16rpx;
 }
 
 .padding-xs {
-	padding: 10rpx;
+	padding: 12rpx;
 }
 
-.padding-top-xs {
-	padding-top: 10rpx;
-}
-
-.padding-top-sm {
-	padding-top: 20rpx;
+.padding-clear {
+	padding: 0;
 }
 
 .padding-top {
-	padding-top: 30rpx;
+	padding-top: 20rpx;
 }
 
-.padding-bottom-xs {
-
-	padding-bottom: 10rpx;
+.padding-top-sm {
+	padding-top: 16rpx;
 }
 
-.padding-bottom-sm {
-	padding-bottom: 20rpx;
+.padding-top-xs {
+	padding-top: 12rpx;
+}
+
+.padding-top-clear {
+	padding-top: 0;
+}
+
+.padding-right {
+	padding-right: 20rpx;
+}
+
+.padding-right-sm {
+	padding-right: 16rpx;
+}
+
+.padding-right-xs {
+	padding-right: 12rpx;
+}
+
+.padding-right-clear {
+	padding-right: 0;
 }
 
 .padding-bottom {
-	padding-bottom: 30rpx;
-}
-
-
-
-.padding-vertical-xs {
-	padding-top: 10rpx;
-	padding-bottom: 10rpx;
-}
-
-.padding-vertical-sm {
-	padding-top: 20rpx;
 	padding-bottom: 20rpx;
+}
+
+.padding-bottom-sm {
+	padding-bottom: 16rpx;
+}
+
+.padding-bottom-xs {
+	padding-bottom: 12rpx;
+}
+
+.padding-bottom-clear {
+	padding-bottom: 0;
+}
+
+.padding-left {
+	padding-left: 20rpx;
+}
+
+.padding-left-sm {
+	padding-left: 16rpx;
+}
+
+.padding-left-xs {
+	padding-left: 12rpx;
+}
+
+.padding-left-clear {
+	padding-left: 0;
 }
 
 .padding-vertical {
-	padding-top: 30rpx;
-	padding-bottom: 30rpx;
-}
-
-.padding-vertical-xs {
-	padding-top: 10rpx;
-	padding-bottom: 10rpx;
-}
-
-.padding-vertical-sm {
 	padding-top: 20rpx;
 	padding-bottom: 20rpx;
 }
 
-.padding-horizontal {
-	padding-left: 30rpx;
-	padding-right: 30rpx;
+.padding-vertical-sm {
+	padding-top: 16rpx;
+	padding-bottom: 16rpx;
 }
 
-.padding-horizontal-sm {
+.padding-vertical-xs {
+	padding-top: 12rpx;
+	padding-bottom: 12rpx;
+}
+
+.padding-vertical-clear {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.padding-horizontal {
 	padding-left: 20rpx;
 	padding-right: 20rpx;
 }
 
+.padding-horizontal-sm {
+	padding-left: 16rpx;
+	padding-right: 16rpx;
+}
+
 .padding-horizontal-xs {
-	padding-left: 10rpx;
-	padding-right: 10rpx;
+	padding-left: 12rpx;
+	padding-right: 12rpx;
 }
 
-.padding-sm {
-	padding: 20rpx;
-}
-
-.padding {
-	padding: 30rpx;
+.padding-horizontal-clear {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .margin {
-	margin: 30rpx;
+	padding: 20rpx;
 }
 
-.margin-bottom-xs {
-	margin-bottom: 10rpx;
+.margin-sm {
+	margin: 16rpx;
 }
 
-.margin-right-xs {
-	margin-right: 10rpx;
+.margin-xs {
+	margin: 12rpx;
+}
+
+.margin-clear {
+	margin: 0;
+}
+
+.margin-top {
+	margin-top: 20rpx;
+}
+
+.margin-top-sm {
+	margin-top: 16rpx;
 }
 
 .margin-top-xs {
-	margin-top: 10rpx;
+	margin-top: 12rpx;
 }
 
-.margin-bottom-xs {
-	margin-bottom: 10rpx;
+.margin-top-clear {
+	margin-top: 0;
+}
+
+.margin-right {
+	margin-right: 20rpx;
+}
+
+.margin-right-sm {
+	margin-right: 16rpx;
+}
+
+.margin-right-xs {
+	margin-right: 12rpx;
+}
+
+.margin-right-clear {
+	margin-right: 0;
 }
 
 .margin-bottom {
-	margin-bottom: 30rpx;
+	margin-bottom: 20rpx;
 }
 
+.margin-bottom-sm {
+	margin-bottom: 16rpx;
+}
+
+.margin-bottom-xs {
+	margin-bottom: 12rpx;
+}
+
+.margin-bottom-clear {
+	margin-bottom: 0;
+}
+
+.margin-left {
+	margin-left: 20rpx;
+}
+
+.margin-left-sm {
+	margin-left: 16rpx;
+}
+
+.margin-left-xs {
+	margin-left: 12rpx;
+}
+
+.margin-left-clear {
+	margin-left: 0;
+}
+
+.margin-vertical {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+
+.margin-vertical-sm {
+	margin-top: 16rpx;
+	margin-bottom: 16rpx;
+}
+
+.margin-vertical-xs {
+	margin-top: 12rpx;
+	margin-bottom: 12rpx;
+}
+
+.margin-vertical-clear {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.margin-horizontal {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+
+.margin-horizontal-sm {
+	margin-left: 16rpx;
+	margin-right: 16rpx;
+}
+
+.margin-horizontal-xs {
+	margin-left: 12rpx;
+	margin-right: 12rpx;
+}
+
+.margin-horizontal-clear {
+	margin-left: 0;
+	margin-right: 0;
+}
 
 /*文本*/
 /*说明文本,标签文字等关注度低的文字*/
@@ -285,6 +420,12 @@ image {
 	color: #c0c4cc;
 }
 
+.boder {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dcdfe6;
+}
+
 .border-base {
 	border-color: #dcdfe6;
 }
@@ -316,9 +457,23 @@ image {
 .bg-white {
 	background-color: #ffffff;
 }
-.border-bottom{
+
+.border-bottom {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #dcdfe6;
 }
 
+.border-top {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #dcdfe6;
+}
+
+.borde-radius {
+	border-radius: 10rpx;
+}
+
+.inline-block {
+	display: inline-block;
+}
