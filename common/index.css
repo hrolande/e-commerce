@@ -1,0 +1,324 @@
+image {
+	width: 100%;
+	will-change: transform;
+}
+
+.scroll-row {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.scroll-row-item {
+	display: inline-block;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-direction {
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.basis-xs {
+	flex-basis: 20%;
+}
+
+.basis-sm {
+	flex-basis: 25%;
+}
+
+.basis-df {
+	flex-basis: 50%;
+}
+
+.padding-0 {
+	padding: 0;
+}
+
+.padding-xs {
+	padding: 10rpx;
+}
+
+.padding-top-xs {
+	padding-top: 10rpx;
+}
+
+.padding-top-sm {
+	padding-top: 20rpx;
+}
+
+.padding-top {
+	padding-top: 30rpx;
+}
+
+.padding-bottom-xs {
+
+	padding-bottom: 10rpx;
+}
+
+.padding-bottom-sm {
+	padding-bottom: 20rpx;
+}
+
+.padding-bottom {
+	padding-bottom: 30rpx;
+}
+
+
+
+.padding-vertical-xs {
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+
+.padding-vertical-sm {
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+
+.padding-vertical {
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+
+.padding-vertical-xs {
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+
+.padding-vertical-sm {
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+
+.padding-horizontal {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+
+.padding-horizontal-sm {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+
+.padding-horizontal-xs {
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+
+.padding-sm {
+	padding: 20rpx;
+}
+
+.padding {
+	padding: 30rpx;
+}
+
+.margin {
+	margin: 30rpx;
+}
+
+.margin-bottom-xs {
+	margin-bottom: 10rpx;
+}
+
+.margin-right-xs {
+	margin-right: 10rpx;
+}
+
+.margin-top-xs {
+	margin-top: 10rpx;
+}
+
+.margin-bottom-xs {
+	margin-bottom: 10rpx;
+}
+
+.margin-bottom {
+	margin-bottom: 30rpx;
+}
+
+
+/*文本*/
+/*说明文本,标签文字等关注度低的文字*/
+.text-xs {
+	font-size: 20rpx;
+}
+
+/*页面辅助信息,次级内容*/
+.text-sm {
+	font-size: 24rpx;
+}
+
+/*页面默认字号,用于摘要或阅读文本*/
+.text-md {
+	font-size: 28rpx;
+}
+
+/*页面小标题,首要层级内容显示*/
+.text-lg {
+	font-size: 32rpx;
+}
+
+/*页面大标题,用于结束页等单一信息页*/
+.text-xl {
+	font-size: 36rpx;
+}
+
+/*用于金额数字等信息*/
+.text-xxl {
+	font-size: 44rpx;
+}
+
+/*用于图标,数字等较大显示*/
+.text-sl {
+	font-size: 80rpx;
+}
+
+/*用于图标,数字等较大显示*/
+.text-xsl {
+	font-size: 120rpx;
+}
+
+.text-through {
+	text-decoration: line-through;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+.text-lower {
+	text-transform: lowercase;
+}
+
+.text-upper {
+	text-transform: uppercase;
+}
+
+.text-price::before {
+	content: '¥';
+	font-size: 80%;
+	margin-right: 4rpx;
+}
+
+.text-cut {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-red {
+	color: #e54d42;
+}
+
+.text-orange {
+	color: #fa7b1d;
+}
+
+.text-yellow {
+	color: #fbbd08;
+}
+
+.text-green {
+	color: #39b54a;
+}
+
+.text-blue {
+	color: #0081ff;
+}
+
+.text-grey {
+	color: #8799a3;
+}
+
+.text-black {
+	color: #333333;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+/*黑色,标题正文,金额等主要文字*/
+.text-primary {
+	color: #303133;
+}
+
+/*深黑,默认状态*/
+.text-regular {
+	color: #606266;
+}
+
+/*深灰,辅助*/
+.text-secondary {
+	color: #909399;
+}
+
+/*灰色占位字体*/
+.text-placeholder {
+	color: #c0c4cc;
+}
+
+.border-base {
+	border-color: #dcdfe6;
+}
+
+.border-light {
+	color: #e4e7ed;
+}
+
+.border-lighter {
+	color: #ebeef5;
+}
+
+.border-extral-light {
+	color: #f3f6fc;
+}
+
+.border-solid {
+	border-style: solid;
+}
+
+.bg-gray {
+	background-color: #f1f1f1;
+}
+
+.bg-gray-light {
+	background-color: #f9f9f9;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+.border-bottom{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dcdfe6;
+}
+
